@@ -5,7 +5,7 @@ a.oncontextmenu=function(e){
   var x=e.clientX;var y=e.clientY;
   menu.style.display="inline";
   if(x+menu.offsetWidth>document.body.clientWidth) x-=menu.offsetWidth;
-  if(y+menu.offsetHeight>document.body.clientWidth) y-=menu.offsetHeight;
+  if(y+menu.offsetHeight>document.body.clientHeight) y-=menu.offsetHeight;
   menu.style.left=x+"px";
   menu.style.top=y+"px";
   return false;
