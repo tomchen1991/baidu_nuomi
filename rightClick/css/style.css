@@ -1,0 +1,24 @@
+#textDiv {
+  position:absolute;
+  background-color:#EEE;
+  height:800px;
+  width:500px;
+  line-height: 800px;
+  text-align: center;  
+  border:solid 1px #999;
+  border-radius:5px;
+}
+#contextMenu {
+  display:none;
+  position:absolute;
+  background-color:white;
+  left:0; 
+  top:0;
+  width:200px;
+  index-z:1;
+}
+.menuObject {
+  padding:5px;
+  margin:-1px;
+  border:solid 1px grey;
+}
